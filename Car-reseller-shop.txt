@@ -1,0 +1,23 @@
+from MySql DOCUMENTATION
+
+
+
+ID - SMALLINT - PRIMARY_KEY, UNIQUE , AUTO_INCREMENT, NOT_NULL
+car_name - VARCHAR(100) - NOTNULL
+car_type - VARCHAR(40) - NULL --example : Berlin/StationWagon --
+car_state - VARCHAR(50) - NOT_NULL --example : Good/Bad/Excellent -- 
+brand_name - VARCHAR(40) - NOT_NULL -- example : Fiat/Audi/Volkswagen/Lamborghini
+fuel_type - VARCHAR(50) - NULL  -- example : Diesel/Electric/Gas
+max_speed - SMALLINT- NULL
+max_CV - SMALLINT - NULL
+euro_NCPA - TINYINT NOT_NULL
+production_date - YEAR - NOT_NULL --example : range from '1901' to '2155' -- 
+availability - BOOLEAN NOT_NULL --example : True/False --
+price - FLOAT(8,2) NOT_NULL --example : 100.000,00 $ --
+
+
+
+
+
+
+
